@@ -1,0 +1,112 @@
+/* CSS: Cascading Style Sheets */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Tilt+Neon&display=swap');
+* {
+    /* Dış boşluk sıfırlama */
+    margin: 0;
+    /* İç boşluk sıfırlama */
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+
+h2{
+    background-color: red;
+    font-size: 20px;
+}
+
+.title {
+    color:yellow;
+}
+.paragraf{
+    background-color: blue;
+    color: white;
+}
+.card {
+    background-color: white;
+    width: 350 px;
+}
+#special {
+    background-color: blue;
+}
+#spanid {
+    background-color: blueviolet;
+    color: white;
+}
+.backgroundDiv{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://udemig.com/assets/images/Udemig.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text {
+    border: 1px dotted black;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    word-spacing: 70px;
+    letter-spacing: 5px;
+}
+.text1 {
+    line-height: 20px;
+    font-family: "Tilt Neon", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.udemig {
+    color: blue;
+}
+.google {
+    color: greenyellow;
+}
+.youtube {
+    color: red;
+}
+ul {
+    list-style-type: circle;
+}
+.border {
+    border-top: 1px solid white;
+    border-right: 1px dotted aqua;
+    border-color: black;
+    border-width: 4px;
+    border: 2px solid blue;
+    /* padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-left: 10px; */
+    /* padding: 20px 80px 40px 10px; */
+    padding: 30px 60px;
+    /* margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin: 30px 40px 30px 40px; */
+    margin: 30px 40px;
+}
+h4, h5, h6 {
+    color: pink;
+    background-color: black;
+}
+.kutu p {
+    background-color: yellow;
+}
+.kutu h2 {
+    background-color: aquamarine;
+}
+.kutu .header h2 {
+    background-color: orange;
+}
+table {
+    width: 100%;
+    /* sağdan çalışmamasının sebebi width 100% olması */
+    margin: 30px;
+}
+th ,tr {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+}
